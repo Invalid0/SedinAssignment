@@ -26,7 +26,7 @@ struct CheckNetworkView: View {
 
                     if elapsedTimeInSeconds > 3 {
                         VStack{
-                            Image("Signel")
+                            Image(systemName:"network")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 250, height: 250, alignment: .center)
@@ -37,7 +37,7 @@ struct CheckNetworkView: View {
                         }
                     } else {
                         VStack{
-                            Image("Internet")
+                            Image(systemName:"network")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 150, height: 150, alignment: .center)
