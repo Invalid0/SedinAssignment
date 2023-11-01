@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		269785B12AF24ED400D9829D /* SedinAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785B02AF24ED400D9829D /* SedinAssignmentApp.swift */; };
-		269785B32AF24ED400D9829D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785B22AF24ED400D9829D /* ContentView.swift */; };
 		269785B52AF24ED900D9829D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269785B42AF24ED900D9829D /* Assets.xcassets */; };
-		269785B82AF24ED900D9829D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269785B72AF24ED900D9829D /* Preview Assets.xcassets */; };
+		269785C22AF275DC00D9829D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785C12AF275DC00D9829D /* User.swift */; };
+		269785C62AF2773F00D9829D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785C52AF2773F00D9829D /* CardView.swift */; };
+		269785C92AF277A000D9829D /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785C82AF277A000D9829D /* ImageView.swift */; };
+		269785CC2AF278C800D9829D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785CB2AF278C800D9829D /* APIService.swift */; };
+		269785CE2AF2797700D9829D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785CD2AF2797700D9829D /* APIManager.swift */; };
+		269785D12AF27BB700D9829D /* InternetChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785D02AF27BB700D9829D /* InternetChecker.swift */; };
+		269785D42AF280F900D9829D /* CheckNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785D32AF280F900D9829D /* CheckNetworkView.swift */; };
+		269785E22AF2906900D9829D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785E12AF2906900D9829D /* SplashScreenView.swift */; };
+		269785E62AF2BA6500D9829D /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269785E52AF2BA6500D9829D /* APIConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		269785AD2AF24ED300D9829D /* SedinAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SedinAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269785B02AF24ED400D9829D /* SedinAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedinAssignmentApp.swift; sourceTree = "<group>"; };
-		269785B22AF24ED400D9829D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		269785B42AF24ED900D9829D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		269785B72AF24ED900D9829D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		269785C12AF275DC00D9829D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		269785C52AF2773F00D9829D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		269785C82AF277A000D9829D /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		269785CB2AF278C800D9829D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		269785CD2AF2797700D9829D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		269785D02AF27BB700D9829D /* InternetChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetChecker.swift; sourceTree = "<group>"; };
+		269785D32AF280F900D9829D /* CheckNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNetworkView.swift; sourceTree = "<group>"; };
+		269785E12AF2906900D9829D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		269785E52AF2BA6500D9829D /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,10 @@
 		269785A42AF24ED300D9829D = {
 			isa = PBXGroup;
 			children = (
+				269785E32AF2B7C800D9829D /* Helper */,
+				269785E02AF2905500D9829D /* SplashScreenView */,
+				269785BE2AF2754F00D9829D /* Models */,
+				269785BF2AF275BA00D9829D /* Views */,
 				269785AF2AF24ED300D9829D /* SedinAssignment */,
 				269785AE2AF24ED300D9829D /* Products */,
 			);
@@ -52,19 +70,86 @@
 			isa = PBXGroup;
 			children = (
 				269785B02AF24ED400D9829D /* SedinAssignmentApp.swift */,
-				269785B22AF24ED400D9829D /* ContentView.swift */,
 				269785B42AF24ED900D9829D /* Assets.xcassets */,
-				269785B62AF24ED900D9829D /* Preview Content */,
 			);
 			path = SedinAssignment;
 			sourceTree = "<group>";
 		};
-		269785B62AF24ED900D9829D /* Preview Content */ = {
+		269785BE2AF2754F00D9829D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				269785B72AF24ED900D9829D /* Preview Assets.xcassets */,
+				269785C12AF275DC00D9829D /* User.swift */,
 			);
-			path = "Preview Content";
+			path = Models;
+			sourceTree = "<group>";
+		};
+		269785BF2AF275BA00D9829D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				269785D22AF280BD00D9829D /* InternetConnectionView */,
+				269785C72AF2777400D9829D /* ImageView */,
+				269785C42AF2772400D9829D /* CardView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		269785C42AF2772400D9829D /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				269785C52AF2773F00D9829D /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		269785C72AF2777400D9829D /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				269785C82AF277A000D9829D /* ImageView.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		269785CA2AF278B500D9829D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				269785CF2AF27B8E00D9829D /* CheckInternetConnection */,
+				269785CB2AF278C800D9829D /* APIService.swift */,
+				269785CD2AF2797700D9829D /* APIManager.swift */,
+				269785E52AF2BA6500D9829D /* APIConfiguration.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		269785CF2AF27B8E00D9829D /* CheckInternetConnection */ = {
+			isa = PBXGroup;
+			children = (
+				269785D02AF27BB700D9829D /* InternetChecker.swift */,
+			);
+			path = CheckInternetConnection;
+			sourceTree = "<group>";
+		};
+		269785D22AF280BD00D9829D /* InternetConnectionView */ = {
+			isa = PBXGroup;
+			children = (
+				269785D32AF280F900D9829D /* CheckNetworkView.swift */,
+			);
+			path = InternetConnectionView;
+			sourceTree = "<group>";
+		};
+		269785E02AF2905500D9829D /* SplashScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				269785E12AF2906900D9829D /* SplashScreenView.swift */,
+			);
+			path = SplashScreenView;
+			sourceTree = "<group>";
+		};
+		269785E32AF2B7C800D9829D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				269785CA2AF278B500D9829D /* Services */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269785B82AF24ED900D9829D /* Preview Assets.xcassets in Resources */,
 				269785B52AF24ED900D9829D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +221,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269785B32AF24ED400D9829D /* ContentView.swift in Sources */,
+				269785D42AF280F900D9829D /* CheckNetworkView.swift in Sources */,
+				269785C92AF277A000D9829D /* ImageView.swift in Sources */,
 				269785B12AF24ED400D9829D /* SedinAssignmentApp.swift in Sources */,
+				269785C62AF2773F00D9829D /* CardView.swift in Sources */,
+				269785D12AF27BB700D9829D /* InternetChecker.swift in Sources */,
+				269785CC2AF278C800D9829D /* APIService.swift in Sources */,
+				269785E22AF2906900D9829D /* SplashScreenView.swift in Sources */,
+				269785E62AF2BA6500D9829D /* APIConfiguration.swift in Sources */,
+				269785C22AF275DC00D9829D /* User.swift in Sources */,
+				269785CE2AF2797700D9829D /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +358,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SedinAssignment/Preview Content\"";
 				DEVELOPMENT_TEAM = 69VRZP5LHD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +386,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SedinAssignment/Preview Content\"";
 				DEVELOPMENT_TEAM = 69VRZP5LHD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
